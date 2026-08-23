@@ -17,7 +17,7 @@ pipeline {
                     if exist out rmdir /s /q out
                     mkdir out
 
-                    javac -d out src\\Student.java src\\Main.java
+                    javac -d out Student.java Main.java
                 '''
             }
         }
